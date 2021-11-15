@@ -1,0 +1,10 @@
+name: visual_search
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.9
+  - anaconda
+  - pip
+  - pip:
+    - -r requirements.txt
